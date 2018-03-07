@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'mdg:validated-metho',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mdg:validated-metho
+8 silly fetchPackageMetaData Error: Unsupported URL Type: mdg:validated-metho
+8 silly fetchPackageMetaData     at parseUrl (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\npm-package-arg\npa.js:186:13)
+8 silly fetchPackageMetaData     at npa (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\npm-package-arg\npa.js:79:12)
+8 silly fetchPackageMetaData     at module.exports (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\realize-package-specifier\index.js:12:15)
+8 silly fetchPackageMetaData     at fetchPackageMetadata (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\fetch-package-metadata.js:54:12)
+8 silly fetchPackageMetaData     at fetchMetadataWithVersion (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\install\deps.js:228:14)
+8 silly fetchPackageMetaData     at C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\install\deps.js:241:16
+8 silly fetchPackageMetaData     at C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+8 silly fetchPackageMetaData     at Array.forEach (native)
+8 silly fetchPackageMetaData     at C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+8 silly fetchPackageMetaData     at Array.forEach (native)
+8 silly fetchPackageMetaData  error for mdg:validated-metho Error: Unsupported URL Type: mdg:validated-metho
+8 silly fetchPackageMetaData     at parseUrl (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\npm-package-arg\npa.js:186:13)
+8 silly fetchPackageMetaData     at npa (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\npm-package-arg\npa.js:79:12)
+8 silly fetchPackageMetaData     at module.exports (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\realize-package-specifier\index.js:12:15)
+8 silly fetchPackageMetaData     at fetchPackageMetadata (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\fetch-package-metadata.js:54:12)
+8 silly fetchPackageMetaData     at fetchMetadataWithVersion (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\install\deps.js:228:14)
+8 silly fetchPackageMetaData     at C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\install\deps.js:241:16
+8 silly fetchPackageMetaData     at C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+8 silly fetchPackageMetaData     at Array.forEach (native)
+8 silly fetchPackageMetaData     at C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+8 silly fetchPackageMetaData     at Array.forEach (native)
+9 silly rollbackFailedOptional Starting
+10 silly rollbackFailedOptional Finishing
+11 silly runTopLevelLifecycles Finishing
+12 silly install printInstalled
+13 verbose stack Error: Unsupported URL Type: mdg:validated-metho
+13 verbose stack     at parseUrl (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\npm-package-arg\npa.js:186:13)
+13 verbose stack     at npa (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\npm-package-arg\npa.js:79:12)
+13 verbose stack     at module.exports (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\realize-package-specifier\index.js:12:15)
+13 verbose stack     at fetchPackageMetadata (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\fetch-package-metadata.js:54:12)
+13 verbose stack     at fetchMetadataWithVersion (C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\install\deps.js:228:14)
+13 verbose stack     at C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\lib\install\deps.js:241:16
+13 verbose stack     at C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+13 verbose stack     at Array.forEach (native)
+13 verbose stack     at C:\Users\Dell\AppData\Roaming\nvm\v6.9.2\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+13 verbose stack     at Array.forEach (native)
+14 verbose cwd E:\shaharyar\projects\LTconnect
+15 error Windows_NT 6.3.9600
+16 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "mdg:validated-metho" "--save"
+17 error node v6.9.2
+18 error npm  v3.10.9
+19 error Unsupported URL Type: mdg:validated-metho
+20 error If you need help, you may report this error at:
+20 error     <https://github.com/npm/npm/issues>
+21 verbose exit [ 1, true ]
